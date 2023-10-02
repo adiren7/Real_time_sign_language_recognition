@@ -1,6 +1,6 @@
 # Real_time_sign_language_recognition
 
-If you want to use pretrained model you can run sign_detection.py 
+If you want to use pretrained model you can run sign_detection.py //
 If you want to use your custom dataset you should run :
 
 
