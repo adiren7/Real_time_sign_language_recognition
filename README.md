@@ -8,11 +8,11 @@ The dataset used for training and testing the model is available on Kaggle at th
 
 ## Data Processing
 
-To convert the images into numeric data, you can run the [create_dataset.py](https://github.com/adiren7/Real_time_sign_language_recognition/blob/main/create_dataset.py) script. This script utilizes the Mediapipe framework to extract hand landmarks from the images, which are then saved in pickle format and used as features for training the model.
+To convert the images into numeric data, you can run the [`create_dataset.py`](https://github.com/adiren7/Real_time_sign_language_recognition/blob/main/create_dataset.py) script. This script utilizes the Mediapipe framework to extract hand landmarks from the images, which are then saved in pickle format and used as features for training the model.
 
 ## Model Training
 
-For predicting alphabet classes, a Random Forest model from the Scikit-learn library is used. The [train_classifier.py](https://github.com/adiren7/Real_time_sign_language_recognition/blob/main/train_classifier.py) script loads the numeric data, trains the Random Forest model, and saves it in pickle format for later use.
+For predicting alphabet classes, a Random Forest model from the Scikit-learn library is used. The [`train_classifier.py`](https://github.com/adiren7/Real_time_sign_language_recognition/blob/main/train_classifier.py) script loads the numeric data, trains the Random Forest model, and saves it in pickle format for later use.
 
 ## Real-time Recognition
 
