@@ -24,7 +24,7 @@ To run the Real-time Sign Language Recognition system locally using your dataset
 
 1. **Clone the Repository**:
 '''
-git clone [<repository_link>](https://github.com/adiren7/Real_time_sign_language_recognition.git)
+git clone https://github.com/adiren7/Real_time_sign_language_recognition.git
 cd Real-time-Sign-Language-Recognition
 '''
 
