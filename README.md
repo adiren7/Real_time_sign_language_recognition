@@ -6,6 +6,8 @@ Welcome to the Real-time Sign Language Recognition project! This project aims to
 
 The dataset used for training and testing the model is available on Kaggle at the following link: [ASL Alphabet Dataset](https://www.kaggle.com/datasets/grassknoted/asl-alphabet). It contains images of ASL alphabet signs.
 
+<img src="https://github.com/adiren7/Real_time_sign_language_recognition/blob/main/media/sign%20language.PNG" width="680" height="480" />
+
 ## Data Processing
 
 To convert the images into numeric data, you can run the [`create_dataset.py`](https://github.com/adiren7/Real_time_sign_language_recognition/blob/main/create_dataset.py) script. This script utilizes the Mediapipe framework to extract hand landmarks from the images, which are then saved in pickle format and used as features for training the model.
@@ -46,6 +48,8 @@ Here's an example of how to use the Real-time Sign Language Recognition system:
 2. Position your hand in front of the webcam.
 3. The system will detect your hand landmarks and predict the corresponding ASL alphabet.
 4. The predicted alphabet will be displayed on the screen in real-time.
+
+<img src="https://github.com/adiren7/Real_time_sign_language_recognition/blob/main/media/usage.png" width="680" height="480" />
 
 ## Contributions
 
