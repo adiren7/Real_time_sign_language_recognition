@@ -42,7 +42,7 @@ python sign_detection.py
 
 Here's an example of how to use the Real-time Sign Language Recognition system:
 
-1. Run the `sign_detection.py` script.
+1. Run the [`sign_detection.py`](https://github.com/adiren7/Real_time_sign_language_recognition/blob/main/sign_detection.py) script.
 2. Position your hand in front of the webcam.
 3. The system will detect your hand landmarks and predict the corresponding ASL alphabet.
 4. The predicted alphabet will be displayed on the screen in real-time.
