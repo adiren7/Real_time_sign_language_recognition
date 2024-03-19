@@ -23,20 +23,20 @@ To demonstrate real-time recognition, the project uses OpenCV and Mediapipe. Ope
 To run the Real-time Sign Language Recognition system locally using your dataset and model weights, follow these steps:
 
 1. **Clone the Repository**:
-'''
+```
 git clone https://github.com/adiren7/Real_time_sign_language_recognition.git
 cd Real-time-Sign-Language-Recognition
-'''
+```
 
 2. **Install Dependencies**:
-'''
+```
 pip install -r requirements.txt
-'''
+```
 
 3. **Run the Application**:
-   '''
-   python sign_detection.py
-   '''
+```
+python sign_detection.py
+```
 
 ## Example Usage
 
