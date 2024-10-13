@@ -10,7 +10,7 @@ The dataset used for training and testing the model is available on Kaggle at th
 
 ## Data Collection
 
-If you wish to collect your own data for training, you can use the [`collect_imgs.py`] script. This script captures images from your webcam and saves them in a specified directory. It allows you to collect images for multiple classes (up to 29 classes) by capturing 100 images per class.
+If you wish to collect your own data for training, you can use the [`collect_imgs.py`](https://github.com/adiren7/Real_time_sign_language_recognition/blob/main/collect_imgs.py) script. This script captures images from your webcam and saves them in a specified directory. It allows you to collect images for multiple classes (up to 29 classes) by capturing 100 images per class.
 
 
 ## Data Processing
