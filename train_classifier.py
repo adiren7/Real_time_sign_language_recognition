@@ -27,7 +27,10 @@ df = pd.DataFrame(data_uniform)
 df["target"]= labels
 df["target"] = pd.to_numeric(df["target"])
 
-x_train, x_test, y_train, y_test = train_test_split(data, labels, test_size=0.2, shuffle=True, stratify=labels)
+X = df.drop(columns=['target'])
+y = df['target']
+
+x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.2, shuffle=True, stratify=labels)
 
 model = RandomForestClassifier()
 
