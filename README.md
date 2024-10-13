@@ -6,7 +6,7 @@ Welcome to the Real-time Sign Language Recognition project! This project aims to
 
 The dataset used for training and testing the model is available on Kaggle at the following link: [ASL Alphabet Dataset](https://www.kaggle.com/datasets/grassknoted/asl-alphabet). It contains images of ASL alphabet signs.
 
-<img src="https://github.com/adiren7/Real_time_sign_language_recognition/blob/main/media/sign%20language.PNG" width="480" height="380" />
+<img src="https://github.com/adiren7/Real_time_sign_language_recognition/blob/main/media/sign%20language.PNG" width="680" height="480" />
 
 ## Data Collection
 
@@ -44,7 +44,7 @@ Before proceeding with model training, I conducted a comparative evaluation of s
 ### Results
 
 The results for each classifier are summarized below
-<img src="https://github.com/adiren7/Real_time_sign_language_recognition/blob/main/media/scores.PNG" width="680" height="480" />
+<img src="https://github.com/adiren7/Real_time_sign_language_recognition/blob/main/media/scores.PNG" width="480" height="380" />
 
 ## Model Training
 
