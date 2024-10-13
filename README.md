@@ -8,6 +8,11 @@ The dataset used for training and testing the model is available on Kaggle at th
 
 <img src="https://github.com/adiren7/Real_time_sign_language_recognition/blob/main/media/sign%20language.PNG" width="680" height="480" />
 
+## Data Collection
+
+If you wish to collect your own data for training, you can use the [`collect_imgs.py`] script. This script captures images from your webcam and saves them in a specified directory. It allows you to collect images for multiple classes (up to 29 classes) by capturing 100 images per class.
+
+
 ## Data Processing
 
 To convert the images into numeric data, you can run the [`create_dataset.py`](https://github.com/adiren7/Real_time_sign_language_recognition/blob/main/create_dataset.py) script. This script utilizes the Mediapipe framework to extract hand landmarks from the images, which are then saved in pickle format and used as features for training the model.
