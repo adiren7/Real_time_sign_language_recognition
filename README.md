@@ -44,7 +44,8 @@ Before proceeding with model training, I conducted a comparative evaluation of s
 ### Results
 
 The results for each classifier are summarized below
-<img src="https://github.com/adiren7/Real_time_sign_language_recognition/blob/main/media/scores.PNG" width="480" height="380" />
+
+<img src="https://github.com/adiren7/Real_time_sign_language_recognition/blob/main/media/scores.PNG" width="380" height="280" />
 
 ## Model Training
 
