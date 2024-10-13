@@ -17,6 +17,35 @@ If you wish to collect your own data for training, you can use the [`collect_img
 
 To convert the images into numeric data, you can run the [`create_dataset.py`](https://github.com/adiren7/Real_time_sign_language_recognition/blob/main/create_dataset.py) script. This script utilizes the Mediapipe framework to extract hand landmarks from the images, which are then saved in pickle format and used as features for training the model.
 
+## Model Comparison
+
+Before proceeding with model training, I conducted a comparative evaluation of several classifiers to determine their performance on the dataset [`evaluate.ipynb`](https://github.com/adiren7/Real_time_sign_language_recognition/blob/main/evaluate.ipynb).
+### Evaluation Process
+
+1. **Data Preparation**:
+   - The dataset was split into features (`X`) and target labels (`y`), with an 80/20 train-test split.
+
+2. **Classifiers**:
+   The following classifiers were evaluated:
+   - **Logistic Regression**: Configured for multi-class classification using the 'lbfgs' solver.
+   - **Random Forest**: An ensemble method utilizing multiple decision trees.
+   - **Support Vector Machine**: Employed with probability estimates.
+   - **K-Nearest Neighbors**: A non-parametric method that classifies based on nearest neighbors.
+   - **Decision Tree**: A model that makes decisions based on feature splits.
+
+3. **Metrics**:
+   For each classifier, I computed the following evaluation metrics:
+   - **Accuracy**: The proportion of true results among the total number of cases examined.
+   - **Precision**: The ratio of correctly predicted positive observations to the total predicted positives.
+   - **Recall**: The ratio of correctly predicted positive observations to all actual positives.
+   - **F1 Score**: The weighted average of Precision and Recall.
+   - **AUC ROC**: The area under the receiver operating characteristic curve.
+
+### Results
+
+The results for each classifier are summarized below
+<img src="https://github.com/adiren7/Real_time_sign_language_recognition/blob/main/media/scores.PNG" width="680" height="480" />
+
 ## Model Training
 
 For predicting alphabet classes, a Random Forest model from the Scikit-learn library is used. The [`train_classifier.py`](https://github.com/adiren7/Real_time_sign_language_recognition/blob/main/train_classifier.py) script loads the numeric data, trains the Random Forest model, and saves it in pickle format for later use.
